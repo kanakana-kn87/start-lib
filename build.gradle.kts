@@ -25,7 +25,7 @@ android {
 
     externalNativeBuild {
         cmake {
-            path = file("../CMakeLists.txt") // 1つ上のCMakeListsを見に行く
+            path = file("../../../../CMakeLists.txt") // 1つ上のCMakeListsを見に行く
         }
     }
     defaultConfig {
